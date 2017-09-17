@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="LoveYourself.css">
+
+  <title> Love Yourself </title>
+
+  <p>I created this website to generate qualities that I posses in order to help depressed me see what is true.</p>
+  <script type="text/javascript">
+
+  function returnQuality(){
+  var x = Math.floor((Math.random()* 18) + 1);
+  console.log(x);
+  var qualities = ["Strong", "Beautiful", "Quirky", "Intelligent", "A Unicorn", "Persistant", "Tough", "Positive", "Friendly", "Fetch", "Litty", "Swol", "Determined", "Special", "Loved", "Loving", "A really strange looking horse", "Almost a fish", "Spontaneous"];
+  document.getElementById("Quality").innerHTML = qualities[x];
+  }
+
+  </script>
+</head>
+<body>
+
+<h1><strong>What am I?</strong></h1>
+
+<button type="button"
+onclick="returnQuality()">
+I am...</button>
+
+<div id="Quality"></div>
+
+</body>
+</html>

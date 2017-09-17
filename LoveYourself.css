@@ -1,0 +1,25 @@
+body {
+    background-color: #daffb3;
+    font-size: 140%;
+    text-align: center;
+}
+h1 {
+    color : #008080;
+    background-color: #bdf5ef;
+    background-blend-mode: soft-light;
+    text-align: center;}
+p {
+    color: black;
+    text-align: center;
+    font-size: 130%;
+    border-bottom: 6px solid black;
+}
+button {
+  margin-bottom: 40px;
+  background-color: #4CAF50; /* Green */
+      color: white;
+      padding: 9px 20px;
+      text-align: center;
+      display: inline-block;
+      font-size: 20px;
+}
