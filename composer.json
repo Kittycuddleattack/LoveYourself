@@ -1,0 +1,12 @@
+{
+  "name": "LoveYourself",
+  "description": "See nice qualities",
+  "repository": "https://github.com/Kittycuddleattack/LoveYourself",
+  "success_url": "/welcome",
+
+  "buildpacks": [
+    {
+      "url": "heroku/php"
+    }
+  ]
+}
